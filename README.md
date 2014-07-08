@@ -1,5 +1,7 @@
 #JS Control Lab
 
+Mark Centoni
+
 ##Part 1 - Looping Exercises
 Complete the following set of problems in lab.md by making new files.
 
