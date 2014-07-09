@@ -108,11 +108,13 @@ function printDeets(data) {
 	var items = [];
 
 	for (var i = 0; i < data.items.length; i++) {
-		console.log(data.items[i].product.brand);
-		console.log(data.items[i].product.inventories[0].price);
+		console.log("Brand: " + data.items[i].product.brand);
+		console.log("Price: " + data.items[i].product.inventories[0].price);
+		console.log("Images: ");
 		for (var j = 0; j < data.items[i].product.images.length; j++) {
 			console.log(data.items[i].product.images[j].link);
 		}
+		console.log(" ");
 	}
 }
 
