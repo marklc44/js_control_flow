@@ -8,4 +8,6 @@ function pluralize(word, count) {
 }
 
 console.log(pluralize("cat", 1));
+console.log(pluralize("dog", 5));
+console.log(pluralize("pig", 0));
 
